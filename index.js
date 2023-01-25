@@ -1,6 +1,17 @@
-function addOnePointHome() {}
-function addTwoPointsHome() {}
-function addThreePointsHome() {}
+let points = 0;
+
+function addOnePointHome() {
+    points += 1;
+}
+
+function addTwoPointsHome() {
+    points += 2;
+}
+
+
+function addThreePointsHome() {
+    points += 3;
+}
 
 addOnePointHome()
 addTwoPointsHome()
