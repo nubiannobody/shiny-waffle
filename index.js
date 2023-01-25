@@ -9,6 +9,7 @@ function addOnePointHome() {
 
 function addTwoPointsHome() {
     points += 2;
+    plusTwoBtn.textContent = points;
 }
 
 
