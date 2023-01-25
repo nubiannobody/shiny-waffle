@@ -3,6 +3,7 @@ let plusOneBtn = document.getElementById("increment-btn1");
 
 function addOnePointHome() {
     points += 1;
+    plusOneBtn.textContent = points;  
 }
 
 function addTwoPointsHome() {
