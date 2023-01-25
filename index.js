@@ -30,14 +30,17 @@ addThreePointsHome()
 
 function addOnePointGuest() {
     points += 1;
+    guestPlusOneBtn.textContent = points;
 }
 
 function addTwoPointsGuest() {
     points += 2;
+    guestPlusTwoBtn.textContent = points;
 }
 
 function addThreePointsGuest() {
     points += 3;
+    guestPlusThreeBtn.textContent = points;
 }
 
 addOnePointGuest()
