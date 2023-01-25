@@ -10,18 +10,18 @@ let guestPlusThreeBtn = document.getElementById("guest-increment-btn3");
 
 function addOnePointHome() {
     points += 1;
-    plusOneBtn.textContent = points;  
+    homePlusOneBtn.textContent = points;  
 }
 
 function addTwoPointsHome() {
     points += 2;
-    plusTwoBtn.textContent = points;
+    homePlusTwoBtn.textContent = points;
 }
 
 
 function addThreePointsHome() {
     points += 3;
-    plusThreeBtn.textContent = points;
+    homePlusThreeBtn.textContent = points;
 }
 
 addOnePointHome()
