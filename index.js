@@ -17,9 +17,17 @@ addOnePointHome()
 addTwoPointsHome()
 addThreePointsHome()
 
-function addOnePointGuest() {}
-function addTwoPointsGuest() {}
-function addThreePointsGuest() {}
+function addOnePointGuest() {
+    points += 1;
+}
+
+function addTwoPointsGuest() {
+    points += 2;
+}
+
+function addThreePointsGuest() {
+    points += 3;
+}
 
 addOnePointGuest()
 addTwoPointsGuest()
