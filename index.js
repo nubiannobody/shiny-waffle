@@ -1,6 +1,7 @@
 let points = 0;
 let plusOneBtn = document.getElementById("home-increment-btn1");
 let plusTwoBtn = document.getElementById("home-increment-btn2");
+let plusThreeBtn = document.getElementById("home-increment-btn3");
 
 function addOnePointHome() {
     points += 1;
@@ -15,6 +16,7 @@ function addTwoPointsHome() {
 
 function addThreePointsHome() {
     points += 3;
+    plusThreeBtn.textContent = points;
 }
 
 addOnePointHome()
