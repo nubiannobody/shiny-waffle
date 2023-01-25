@@ -1,5 +1,6 @@
 let points = 0;
-let plusOneBtn = document.getElementById("increment-btn1");
+let plusOneBtn = document.getElementById("home-increment-btn1");
+let plusTwoBtn = document.getElementById("home-increment-btn2");
 
 function addOnePointHome() {
     points += 1;
